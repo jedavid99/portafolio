@@ -315,20 +315,23 @@
 </body>
 <script>
     function redirectToLinkedink() {
-      window.location.href = "https://www.linkedin.com/in/jes%C3%BAs-henr%C3%ADquez-a0994225b/";
-    }function redirectToGit() {
+      const newWindow = window.open ("https://www.linkedin.com/in/jes%C3%BAs-henr%C3%ADquez-a0994225b/");
+      newWindow.focus();
+    }
+    function redirectToGit() {
   const newWindow = window.open("https://github.com/jedavid99");
   newWindow.focus();
 }
 
       function redirectToWhatsApp() {
-      window.location.href = "https://wa.link/jyrfwr";
+      const newWindow =window.open("https://wa.link/jyrfwr") ;
+      newWindow.focus();
 
       }
 
       function cvPdf() {
-      window.location.href = "asset/cv/Jesus__Henriquez[2]-1.pdf";
-
+        const newWindow = window.open  ("asset/cv/Jesus__Henriquez[2]-1.pdf");
+        newWindow.focus();
       }
   </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
