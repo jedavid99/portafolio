@@ -41,6 +41,6 @@ var wordflick = function () {
     $('.animation').text(part);
   },speed);
 };
-$(document).ready(function () {
+$(document).ready(function (){
   wordflick();
 });
