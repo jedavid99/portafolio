@@ -44,3 +44,5 @@ var wordflick = function () {
 $(document).ready(function (){
   wordflick();
 });
+
+
